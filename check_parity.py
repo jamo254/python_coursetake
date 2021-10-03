@@ -19,5 +19,6 @@ print('number:', checkParity(7))
 print('number:', checkParity(11))
 
 
+
     
 

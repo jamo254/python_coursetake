@@ -14,6 +14,6 @@ print(type(check_boolean))
 
 
 check_float = 453.34
-print(type())
+
 
 
