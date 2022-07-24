@@ -213,92 +213,14 @@ print(divisibleByThree())
 
 
 
-# Python for  Developers
 
-> #### **Introduction :**
 
-Python is a general purpose language built in the 90s, it’s an interpreted high level language
 
----
 
-### Printing to the console
 
-::print:: (“Hello  developers”)
 
-**Printing Multiple Pieces of Data**
 
-It is possible to print multiple items to the console; separate them using commas.
 
-::print:: (50, 1000, 3.142, "::Hello Developers::”)
 
-> In python the ::print:: function is used to output information to the console or terminal
-
-![Screenshot 2022-07-25 at 02.43.54.png](https://res.craft.do/user/full/793cbace-c36e-399f-149b-b52a8d2d8184/doc/189A904E-7CBC-4FAC-A1DE-3E731664250D/4C3FAF21-CE12-4F34-8C44-3825D2A4644B_2/D8XxDsqxIRcJyiylW0w7sdESdcnCRAWc13R6GoR1Dy4z/Screenshot%202022-07-25%20at%2002.43.54.png)
-
-### Timeline
-
-> A timeline that showcases the key events of the incidents
-
-| I::ncident started::  | `2020-09-10 12:00`  |
-| --------------------- | ------------------- |
-| I::ncident detected:: | `2020-09-10 13:00`  |
-| I::ncident resolved:: | `2020-09:10: 14:00` |
-
-> Metrics that tells the time required for detection and resolution
-
-| **Time to detect**                 | 10 minutes |
-| ---------------------------------- | ---------- |
-| **Time to resolve from detection** | 10 minutes |
-| **Time to resolve from start**     | 20 minutes |
-
-### Detection
-
-> Describes how the issue was detected
-
-> For instance: user report, automated alert, watching monitoring logs
-
-### Resolution
-
-> Describes how the issue was fixed
-
-> For instance:
-
-- > configuration change
-- > deployment rollback
-- > bug fix needed to be submitted
-
-### Impact
-
-> Describes the measurable and potential damage that was caused by the incident
-
-> For instance:
-
-- > duration of a feature being unavailable
-- > number of users being effected
-- > size of data being lost
-- > potential revenue loss
-
-### Root cause
-
-> One of the most important sections, a comprehensive description of the findings of the cause-effect exploration.
-
-- Provides context on how the various components work and interact with each other, tells how the underlying problem propagated to become a user-facing issue
-- Describes how the problematic program code or configuration was deployed to production and how it was not prevented to do so
-- In case the impact could have been reduced, tells why it didn’t happen
-
-> > Method: [https://en.wikipedia.org/wiki/Five_whys](https://en.wikipedia.org/wiki/Five_whys)
-
-### Learnings
-
-> One of the most important sections describes the learnings that can help us in the future to prevent similar incidents, reduce potential impact, decrease detection and resolution time.
-
-### Actions
-
-- #### Corrective
-   - Action points that resolved and fixed the problem
-- #### Preventive
-   - Action points that will make sure we will not experience the same problem again
-- #### Strategic
-   - Action points that are beyond this particular incident, applying these in our engineer culture can generally improve the reliability of our services
 
 
